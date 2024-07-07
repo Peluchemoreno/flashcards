@@ -1,0 +1,10 @@
+@import url('../src/vendor/normalize.css');
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+  /* background-color: #D0E3C4; */
+  background-color: #000;
+}

@@ -1,0 +1,39 @@
+.header {
+  position: relative;
+  width: 100%;
+  height: 100px;
+  background-color: #503047;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, .5);
+  z-index: 1;
+  display: flex;
+}
+
+.header__logo {
+  width: 50px;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+
+.header__link {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  align-items: center;
+  margin-right: 100px;
+}
+
+.header__links {
+  display: flex;
+  align-items: center;
+}
+
+.header__links_link {
+  margin-right: 90px;
+  text-decoration: none;
+  color: white;
+  transition: text-shadow .2s ease;
+}
+
+.header__links_link:hover {
+  text-shadow: 0 0 5px white;
+}

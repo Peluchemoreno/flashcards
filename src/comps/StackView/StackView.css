@@ -1,0 +1,61 @@
+.stack__card {
+  background-color: #d0e3c4;
+  width: 93%;
+  height: 50%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 7px #000;
+}
+
+.stack__title {
+  text-align: center;
+  margin: 0;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  font-size: 30px;
+}
+
+.stack__icon {
+  height: 30px;
+  position: absolute;
+  cursor: pointer;
+  transition: scale .3s ease;
+}
+
+.stack__icon_new-card {
+  left: 3%;
+  top: 10%;
+}
+
+.stack__icon_back-button {
+  right: 1%;
+  top: 1%;
+}
+
+.stack__icon:hover{
+  scale: 1.1;
+}
+
+.stack__container {
+  position: relative;
+  height: 89%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stack__question {
+  font-size: 30px;
+  font-weight: normal;
+}
+
+.stack__bar {
+  width: 93%
+}
+
+.stack__status {
+  text-align: center;
+}

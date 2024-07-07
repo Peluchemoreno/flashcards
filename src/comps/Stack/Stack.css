@@ -1,0 +1,45 @@
+.stacks {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 3%;
+  margin-bottom: 12%;
+  height: 100%;
+}
+
+
+
+.stack {
+  background-color: #d0e3c4;
+  border-radius: 10px;
+  width: 344px;
+  height: 211px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color .3s ease;
+  cursor: pointer;
+  position: relative;
+}
+
+.stack:hover {
+  background-color: #adc698;
+}
+
+.stack__name {
+  margin: 0;
+  text-decoration: none;
+  color: black;
+}
+
+.stack__icon_delete {
+  position: absolute;
+  right: 3%;
+  top: 3%;
+  height: 10px;
+  z-index: 4;
+}
