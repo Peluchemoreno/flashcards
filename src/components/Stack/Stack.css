@@ -11,7 +11,11 @@
   height: 100%;
 }
 
-
+.stack__icon_delete {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
 
 .stack {
   background-color: #d0e3c4;
