@@ -30,6 +30,11 @@
   position: relative;
 }
 
+.stack__card-quantity {
+  position: absolute;
+  bottom: 0;
+}
+
 .stack:hover {
   background-color: #adc698;
 }

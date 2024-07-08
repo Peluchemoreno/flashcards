@@ -5,6 +5,14 @@ export const stackList = [
       {
         question: 'How many days are there in a week?',
         answer: "7"
+      },
+      {
+        question: "How many hours are there in a day?",
+        answer: '24'
+      },
+      {
+        question: "How many days are there in a year?",
+        answer: '365'
       }
     ]
   },

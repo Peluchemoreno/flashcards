@@ -20,17 +20,18 @@
 
 .stack__icon {
   height: 30px;
-  position: absolute;
   cursor: pointer;
   transition: scale .3s ease;
 }
 
 .stack__icon_new-card {
+  position: absolute;
   left: 3%;
-  top: 10%;
+  top: 60px;
 }
 
 .stack__icon_back-button {
+  position: absolute;
   right: 1%;
   top: 1%;
 }
@@ -53,9 +54,43 @@
 }
 
 .stack__bar {
-  width: 93%
+  width: 93%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-top: 10px;
 }
 
 .stack__status {
   text-align: center;
+}
+
+.stack__bar_center-controls {
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.stack__bar_controls {
+  position: absolute;
+  right: 0;
+}
+
+.stack__icon_flip, .stack__icon_fullscreen {
+  margin-left: 15px;
+}
+
+.stack__icon_previous-card {
+  margin-right: 15px;
+}
+
+.stack__icon_next-card {
+  margin-left: 15px;
+}
+
+.stack__answer {
+  font-size: 20px;
+  padding: 10px;
+  line-height: 1.3;
 }
