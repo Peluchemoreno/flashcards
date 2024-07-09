@@ -8,6 +8,7 @@ import Study from '../Study/Study'
 import { Routes, Route } from 'react-router-dom'
 import StackView from '../StackView/StackView'
 import { stackList } from '../../utils/stackList'
+import { Navigate } from 'react-router-dom'
 
 function App() {
 
@@ -20,9 +21,10 @@ function App() {
         <div className="page__content-main">
         <Routes>
           <Route path='/study' element={<Study />}></Route>
-          <Route path='/' element={<Homepage stackChoice={stackList} />}></Route>
+          <Route path='/stacks' element={<Homepage stackChoice={stackList} />}></Route>
           <Route path='/:stackId' element={<StackView stackChoice={stackList}/>}></Route>
           <Route path='/test' element={<Test />} />
+          <Route path='*' element={<Navigate to='/stacks'/>} />
         </Routes>
         </div>
       </div>
